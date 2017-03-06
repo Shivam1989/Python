@@ -21,7 +21,7 @@
 
 *Because it is so large, it makes analysis complicated. The question always is: Where do we even start?*
 
-** Dependencies**
+**Dependencies**
 - Word cloud
 - OS
 - Counter
@@ -149,7 +149,7 @@ As we can see the top person is Richard Shapiro. He was the Vice President. A lo
 
 ## Analysis
 
-** Dependencies**
+**Dependencies**
 
 - Request
 - OS
