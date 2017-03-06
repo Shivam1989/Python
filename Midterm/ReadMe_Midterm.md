@@ -55,11 +55,11 @@ some of the fields are empty (due to data corruption, old Mime formats that can�
 <img src ="images/kenlay.png"/>
 
 ```
-Most of the emails were sent with Lay’s own email address. It seemed he had two email addreses: *kenneth.lay@enron.com and klay@enron.com*
+Most of the emails were sent with Lay’s own email address. It seemed he had two email addreses: kenneth.lay@enron.com and klay@enron.com
 
 The most emails he received were from Rosalee Fleming.
 
-I have used NLTK package to analyse most frequent words in file 'email_body.txt' which consist of emails of kennith lay and created *word cloud* of it
+I have used NLTK package to analyse most frequent words in file 'email_body.txt' which consist of emails of kennith lay and created word cloud of it
 
 Some words like communication and energy are expected, as that’s what Enron did.
 
@@ -175,7 +175,7 @@ My overall goal was to determine if the sentiment of words in news coverage can 
 
 **Collecting Data**
 
-*I have used **Input** method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
+*I have used Input method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
  
 
 ```
@@ -185,7 +185,7 @@ os.getcwd() # Get current working directory
 
 ```
 
-*I have Created a configuaration file which stores all the configuartion details as **Api Key ,dates, password etc** . We need to use parser to fetch configuration file
+*I have Created a configuaration file which stores all the configuartion details as Api Key ,dates, password etc . We need to use parser to fetch configuration file*
 
 ```
 from configparser import ConfigParser
@@ -199,18 +199,18 @@ config.read(config_file)
 
 **Storing Data**
 
-*The New York Times API will not return the full text of articles. However, it will return metadata such as subject terms, abstract, and date, as well as the URL, which I will subsequently use to scrape the full text of articles *
+*The New York Times API will not return the full text of articles. However, it will return metadata such as subject terms, abstract, and date, as well as the URL, which I will subsequently use to scrape the full text of articles*
 
 **Content Extraction Algorithms for Python**
 
 There are several packages in Python for extracting content from Web pages. A brief overview of these packages follows:
 
-*Goose*
+**Goose**
 
 Goose was originally an article extractor written in Java.
 The aim of the software is to take any news article or article-type web page and not only extract what is the main body of the article but also all meta data and most probable image candidate.
 
-*BeautifulSoup*
+**BeautifulSoup**
 
 I also examined BeautifulSoup, although I found it less easy to use than Goose. In retrospect, BeautifulSoup is good to use if you really need to target specific elements on a web page in my case i am targeting the web url element
 
@@ -252,15 +252,15 @@ We find that articles have more positive words than negative words i:e around 62
 
 **2. Zipf's Law on New york times article Archieve API** 
 
-*Zipf's Law is a statement based on observation rather than theory. It is often true of a collection of instances of classes, e.g., occurrences of words in a document. It says that the frequency of occurrence of an instance of a class is roughly inversely proportional to the rank of that class in the frequency list.
+*Zipf's Law is a statement based on observation rather than theory. It is often true of a collection of instances of classes, e.g., occurrences of words in a document. It says that the frequency of occurrence of an instance of a class is roughly inversely proportional to the rank of that class in the frequency list.*
 
-More exactly, suppose a word occurs f times and that in the list of word frequencies it has a certain rank, r. Then if Zipf's Law holds we have (for all words) f = a/rb where a and b are constants and b is close to 1.*
+*More exactly, suppose a word occurs f times and that in the list of word frequencies it has a certain rank, r. Then if Zipf's Law holds we have (for all words) f = a/rb where a and b are constants and b is close to 1.*
 
 
 
 **Collecting Data**
 
-*I have used **Input** method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
+*I have used Input method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
  
 
 ```
@@ -270,7 +270,7 @@ os.getcwd() # Get current working directory
 
 ```
 
-*I have Created a configuaration file which stores all the configuartion details as **Api Key ,dates, password etc** . We need to use parser to fetch configuration file
+*I have Created a configuaration file which stores all the configuartion details as Api Key ,dates, password etc . We need to use parser to fetch configuration file*
 
 ```
 from configparser import ConfigParser
@@ -284,7 +284,7 @@ config.read(config_file)
 
 **Storing Data**
 
-*The New York Times API will not return the full text of articles. However, it will return metadata such as subject terms, abstract, and date, as well as the URL, which I will subsequently use to scrape the full text of articles *
+*The New York Times API will not return the full text of articles. However, it will return metadata such as subject terms, abstract, and date, as well as the URL, which I will subsequently use to scrape the full text of articles*
 
 
 ```
@@ -317,7 +317,7 @@ I also plotted a graph with most frequent words used
 
 **Collecting Data**
 
-*I have used **Input** method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
+*I have used Input method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
  
 
 ```
@@ -327,7 +327,7 @@ os.getcwd() # Get current working directory
 
 ```
 
-*I have Created a configuaration file which stores all the configuartion details as **Api Key ,dates, password etc** . We need to use parser to fetch configuration file
+*I have Created a configuaration file which stores all the configuartion details as Api Key ,dates, password etc . We need to use parser to fetch configuration file*
 
 ```
 from configparser import ConfigParser
@@ -360,7 +360,7 @@ I Stored the result in csv file and it give insights on publisher publisher date
 
 **Collecting Data**
 
-*I have used **Input** method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
+*I have used Input method to store data where user can give the path of working directory.The reason for using this way to avoid conflict in the way we give path in Mac OS by single "/" and in windows "//"*
  
 
 ```
@@ -370,7 +370,7 @@ os.getcwd() # Get current working directory
 
 ```
 
-*I have Created a configuaration file which stores all the configuartion details as **Api Key ,dates, password etc** . We need to use parser to fetch configuration file
+*I have Created a configuaration file which stores all the configuartion details as Api Key ,dates, password etc . We need to use parser to fetch configuration file*
 
 ```
 from configparser import ConfigParser
