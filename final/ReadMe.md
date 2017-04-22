@@ -432,9 +432,9 @@ I have used Basemap package to analyse delay few library needed to install Basem
 
 The above graph show analysis on most busy day acorss all the deperature.We are interested over here to find the day on which on which most no of flights are scheduled.
 
-An important conclusion can also be drawn from above graph and analysis #3 that "Thursday" is most important day as it has most no of cancellation and it is most busiest day as it has it has highest number of flights scheduled on that day.
+An important conclusion can also be drawn from above graph and analysis #1 that "Monday" is most important day as it has most no of cancellation and it is most busiest day as it has it has highest number of flights scheduled on that day.
 
-It can also concluded from above hypothesis that since we high volume of scheduled flights on thursday as  comapared to other days of week  it might be reason that it is most busiest day and it might cause lot of delay because of may be weather carrier security or national system etc can be reason for maximum no of cancellation of flights for that day.
+It can also concluded from above hypothesis that since we high volume of scheduled flights on monday as  comapared to other days of week  it might be reason that it is most busiest day and it might cause lot of delay because of may be weather carrier security or national system etc can be reason for maximum no of cancellation of flights for that day.
 
 ```
 <img src ="images/Flights_csv.png"/>
