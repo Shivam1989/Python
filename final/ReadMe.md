@@ -19,13 +19,13 @@
 
 ## Folder Structure
 ```
-final\
-     data\ 
+final/
+     data/ 
          airlines.csv
          flights.csv
          airports.csv
          ...
-     images\
+     images/
             Flights_Fig1.png
             Flights_Fig2.png
             Flights_Fig3.png
@@ -40,7 +40,7 @@ final\
     Final_Project_A5.ipynb 
     Final_Data_Output.ipynb
 
-    output\
+    output/
           ...
           images
           MapDataDeparture.csv
