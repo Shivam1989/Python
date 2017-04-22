@@ -19,7 +19,7 @@
 
 ## Folder Structure
 
-final/
+>final/
      data/ 
          airlines.csv
          flights.csv
