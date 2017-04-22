@@ -18,8 +18,8 @@
 
 
 ## Folder Structure
-
->final/
+```
+final/
      data/ 
          airlines.csv
          flights.csv
@@ -45,7 +45,7 @@
           MapDataDeparture.csv
           MapDataArrival.csv
 
-
+```
 ## Running My Code
 
 - Clone the Repository to System.[Github link](https://github.com/Shivam1989/Python)
