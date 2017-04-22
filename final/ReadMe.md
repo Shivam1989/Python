@@ -19,19 +19,19 @@
 
 ## Folder Structure
 ```
-final/
-     data/ 
+final\
+     data\ 
          airlines.csv
          flights.csv
          airports.csv
          ...
-     images/
+     images\
             Flights_Fig1.png
             Flights_Fig2.png
             Flights_Fig3.png
             ...
 
-    ReadMe.md
+    
 
     Final_Project_A1.ipynb
     Final_Project_A2.ipynb
@@ -39,11 +39,14 @@ final/
     Final_Project_A4.ipynb
     Final_Project_A5.ipynb 
     Final_Data_Output.ipynb
-    output/
+
+    output\
           ...
           images
           MapDataDeparture.csv
           MapDataArrival.csv
+
+    ReadMe.md      
 
 ```
 ## Running My Code
