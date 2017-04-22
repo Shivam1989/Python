@@ -437,7 +437,7 @@ An important conclusion can also be drawn from above graph and analysis #3 that 
 It can also concluded from above hypothesis that since we high volume of scheduled flights on thursday as  comapared to other days of week  it might be reason that it is most busiest day and it might cause lot of delay because of may be weather carrier security or national system etc can be reason for maximum no of cancellation of flights for that day.
 
 ```
-<img src ="images/Flight_csv.png"/>
+<img src ="images/Flights_csv.png"/>
 
 ```
 The above graph show analysis on most busy airport with resepect to departure and origin.We are interested over here to find the airport on which on  flights are scheduled,which is busiest based on arrival and departure.
