@@ -32,13 +32,13 @@ final/
             ...
 
     
-
-    Final_Project_A1.ipynb
-    Final_Project_A2.ipynb
-    Final_Project_A3.ipynb
-    Final_Project_A4.ipynb
-    Final_Project_A5.ipynb 
-    Final_Data_Output.ipynb
+     Analysis/
+             Final_Project_A1.ipynb
+             Final_Project_A2.ipynb
+             Final_Project_A3.ipynb
+             Final_Project_A4.ipynb
+             Final_Project_A5.ipynb 
+             Final_Data_Output.ipynb
 
     output/
           ...
